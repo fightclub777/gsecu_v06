@@ -6,6 +6,7 @@
 2. 목표.
 	1) 인증 성공을 담당하는 AuthenticationSuccessHandler 인터페이스를 구현하는 클래스 작성.
 	2) 인증 실패를 담당하는 AuthenticationFailureHandler 인터페이스를 구현하는 클래스 작성.
+	3) 비밀번호 암호화를 담당하는 BCryptPasswordEncoder 클래스를 인증에 적용.
 	
 3. 주요내용.
 	
@@ -13,6 +14,9 @@
 		: 
 		
 	3.2. AuthenticationFailureHandler 인터페이스.
+		: 
+		
+	3.3. BCryptPasswordEncoder 클래스.
 		: 
 		
 4. 추가내용.
